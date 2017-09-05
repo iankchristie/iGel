@@ -10,7 +10,7 @@
 #import "AppDelegate.h"
 #import "GelObject.h"
 #import "FilterViewController.h"
-#import "DisplayData.h"
+#import "DisplayDataViewController.h"
 
 @interface EditViewController ()
 
@@ -68,7 +68,7 @@
     [NSKeyedArchiver archiveRootObject: gData toFile:[AppDelegate getDataFilePath]];
     
     //Loading Next View
-    DisplayData *dd = [[DisplayData alloc]init];
+    DisplayDataViewController *dd = [[DisplayDataViewController alloc]init];
     dd.gelObject = gel;
     dd.from = YES;
     

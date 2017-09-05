@@ -6,17 +6,17 @@
 //  Copyright (c) 2012 Carnegie Vanguard High School. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "MainViewController.h"
 #import "ArchiveTableViewController.h"
 #import "GelObject.h"
 #import "EditViewController.h"
-#import "About.h"
+#import "AboutViewController.h"
 
-@interface ViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation ViewController
+@implementation MainViewController
 
 #pragma mark - Contact Code
 
@@ -84,7 +84,7 @@
 #pragma mark - Button Code
 
 - (IBAction)pushedAbout:(id)sender {
-    About *about = [[About alloc] init];
+    AboutViewController *about = [[AboutViewController alloc] init];
     [self.navigationController pushViewController:about animated:YES];
 }
 

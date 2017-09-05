@@ -6,13 +6,13 @@
 //  Copyright (c) 2012 Carnegie Vanguard High School. All rights reserved.
 //
 
-#import "About.h"
+#import "AboutViewController.h"
 
-@interface About ()
+@interface AboutViewController ()
 
 @end
 
-@implementation About
+@implementation AboutViewController
 @synthesize label;
 @synthesize button;
 

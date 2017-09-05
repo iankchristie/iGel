@@ -1,20 +1,20 @@
 //
-//  DisplayData.m
+//  DisplayDataViewController
 //  iGel1
 //
 //  Created by Ian Christie on 7/25/12.
 //  Copyright (c) 2012 Carnegie Vanguard High School. All rights reserved.
 //
 
-#import "DisplayData.h"
+#import "DisplayDataViewController.h"
 #import "GelObject.h"
 #import "EditViewController.h"
 
-@interface DisplayData ()
+@interface DisplayDataViewController ()
 
 @end
 
-@implementation DisplayData
+@implementation DisplayDataViewController
 
 @synthesize gelObject;
 @synthesize nameLabel;

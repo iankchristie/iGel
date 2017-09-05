@@ -9,7 +9,7 @@
 #import "ArchiveTableViewController.h"
 #import "AppDelegate.h"
 #import "GelObject.h"
-#import "DisplayData.h"
+#import "DisplayDataViewController.h"
 
 @interface ArchiveTableViewController ()
 
@@ -119,7 +119,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     GelObject *g = [gelData objectAtIndex:indexPath.row];
     // Navigation logic may go here. Create and push another view controller.
-    DisplayData *detailViewController = [[DisplayData alloc] init];
+    DisplayDataViewController *detailViewController = [[DisplayDataViewController alloc] init];
     detailViewController.gelObject = g;
     detailViewController.from = NO;
     // Pass the selected object to the new view controller.

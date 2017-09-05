@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface About : UIViewController {
+@interface AboutViewController : UIViewController {
     IBOutlet UILabel *label;
     IBOutlet UIButton *button;
 }

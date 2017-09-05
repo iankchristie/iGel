@@ -1,5 +1,5 @@
 //
-//  DisplayData.h
+//  DisplayDataViewController
 //  iGel1
 //
 //  Created by Ian Christie on 7/25/12.
@@ -12,7 +12,7 @@
 
 @class GelObject;
 
-@interface DisplayData : UIViewController <MFMailComposeViewControllerDelegate,UIScrollViewDelegate>{
+@interface DisplayDataViewController : UIViewController <MFMailComposeViewControllerDelegate,UIScrollViewDelegate>{
     GelObject *gelObject;
     IBOutlet UILabel *nameLabel;
     IBOutlet UILabel *dateLabel;
